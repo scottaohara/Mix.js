@@ -13,7 +13,8 @@
 
   function bindEvents() {
     $(document).on('keyup', function( ev ) {
-      var playing = App.mix.get('playing'),
+      var 
+        playing = App.mix.get('playing'),
         position = App.mix.get('position');
       switch ( ev.keyCode ) {
         // spacebar
